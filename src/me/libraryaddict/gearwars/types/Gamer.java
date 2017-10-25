@@ -14,7 +14,7 @@ public class Gamer {
     private boolean isInvis;
     private boolean isSpectator;
     private Player player;
-    private boolean isRandomAbility;
+    private boolean isRandomAbility = true;
 
     public void setRandomAbility(boolean isRandom) {
         this.isRandomAbility = isRandom;
